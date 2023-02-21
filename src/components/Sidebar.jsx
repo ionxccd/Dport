@@ -9,7 +9,7 @@ function Sidebar(props) {
     return (
         <>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" style={styles.Background}>
-            <a class="navbar-brand" href="/" style={styles.Icon}><Icon.BsPersonCircle size={30}/></a>
+            <a class="navbar-brand" href="/" style={styles.Icon}><img width={35} src='logo.png'/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

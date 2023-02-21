@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@fontsource/lato": "^4.5.10",
@@ -21,6 +23,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1",
     "react-simple-tooltip": "^2.6.3",
     "react-tagcloud": "^2.3.1"
   },
