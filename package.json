@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test":"react-scripts test",
+    "test": "react-scripts test",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "eject": "react-scripts eject"
@@ -23,7 +23,6 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "^5.0.1",
-    "react-simple-tooltip": "^2.6.3",
     "react-tagcloud": "^2.3.1"
   },
   "devDependencies": {
