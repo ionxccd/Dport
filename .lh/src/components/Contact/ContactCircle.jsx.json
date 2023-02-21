@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Contact/ContactCircle.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1676950918653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1676950918653,
+            "name": "Commit-0",
+            "content": "import 'bootstrap/dist/css/bootstrap.min.css';\r\nimport React, { useEffect, useState } from 'react';\r\nimport * as Icon from \"react-icons/im\";\r\nimport {styles} from \"../../css/styles.js\";\r\n// import Tooltip from \"react-simple-tooltip\";\r\nimport \"../../css/Home.css\";\r\n\r\nfunction ContactCircle(prop){\r\n    return(\r\n        <>\r\n            <div class=\"col-sm rounded-circle d-flex justify-content-center\">\r\n                <a href={prop.url} style={{color:\"#2D4665\"}}>\r\n                {/* <Tooltip content={prop.tooltip} background=\"#2D4665\" color=\"#fff\"> */}\r\n                    <div class=\"exp\" style={{height:140,width:140}}>\r\n                        {prop.children}\r\n                    </div>\r\n                {/* </Tooltip> */}\r\n                </a>\r\n            </div>\r\n        </>\r\n    )\r\n}\r\n\r\nexport default ContactCircle;"
+        }
+    ]
+}

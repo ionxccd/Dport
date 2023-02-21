@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar.jsx";
 import React, { useEffect, useState } from 'react';
 import {MdOpenInNew} from "react-icons/md";
 import { getProjects } from '../controllers/dbController.js';
-import Tooltip from "react-simple-tooltip"
+// import Tooltip from "react-simple-tooltip"
 
 function Archive(){
     const [projects, setPros] = useState([]);
@@ -39,9 +39,9 @@ function Archive(){
                                 </div>
                             </td>
                                 <td>
-                            <Tooltip content={todo.desc} background="#fff" color="#000">
+                            {/* <Tooltip content={todo.desc} background="#fff" color="#000"> */}
                                     <p class="fw-normal mb-1 text-truncate" style={{maxWidth: "300px"}}>{todo.desc}</p>
-                            </Tooltip>
+                            {/* </Tooltip> */}
                                 </td>
                             <td>
                                {todo.type}

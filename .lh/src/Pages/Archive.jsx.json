@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/Pages/Archive.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1676950967682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1676950967682,
+            "name": "Commit-0",
+            "content": "import 'bootstrap/dist/css/bootstrap.min.css';\r\nimport {styles} from '../css/styles.js';\r\nimport Sidebar from \"../components/Sidebar.jsx\";\r\nimport React, { useEffect, useState } from 'react';\r\nimport {MdOpenInNew} from \"react-icons/md\";\r\nimport { getProjects } from '../controllers/dbController.js';\r\n// import Tooltip from \"react-simple-tooltip\"\r\n\r\nfunction Archive(){\r\n    const [projects, setPros] = useState([]);\r\n\r\n    useEffect(() => {\r\n        getProjects().then((res) => setPros(res));\r\n    }, [])\r\n\r\n    return(\r\n        <Sidebar>\r\n            <div class=\"m-3\">\r\n                <p style={{...styles.Text, ...{fontSize:90}}}>Archive</p>\r\n                {/* <hr class=\"mt-2 mb-3\"/> */}\r\n                <table class=\"table text-light\">\r\n                    <thead>\r\n                        <tr>\r\n                            <th>Title</th>\r\n                            <th>Description</th>\r\n                            <th>Type</th>\r\n                            <th>Date</th>\r\n                            <th>Link</th>\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        {projects.map((todo) => (\r\n                        <tr>\r\n                            <td>\r\n                                <div class=\"d-flex align-items-center\">\r\n                                <div class=\"\">\r\n                                    <p class=\"fw-bold mb-1\">{todo.title}</p>\r\n                                </div>\r\n                                </div>\r\n                            </td>\r\n                                <td>\r\n                            {/* <Tooltip content={todo.desc} background=\"#fff\" color=\"#000\"> */}\r\n                                    <p class=\"fw-normal mb-1 text-truncate\" style={{maxWidth: \"300px\"}}>{todo.desc}</p>\r\n                            {/* </Tooltip> */}\r\n                                </td>\r\n                            <td>\r\n                               {todo.type}\r\n                            </td>\r\n                            <td>{todo.date}</td>\r\n                            <td><a href={todo.url}><MdOpenInNew size={18}/></a></td>\r\n                            {/* <td class=\"d-flex justify-content-start align-items-end\" style={{gap:10}}>\r\n                                {todo.tags.map((x, i) =>\r\n                                <p>{todo.tags[i]}</p>\r\n                            )}</td> */}\r\n                        </tr>\r\n                        ))}\r\n                    </tbody>\r\n                </table>\r\n                 {/* {projects.map((todo) => (\r\n                        // <div class=\"border-bottom m-3\">\r\n                        //     <p style={styles.Text}>{todo.title}</p>\r\n                        // </div>\r\n                    ))} */}\r\n            </div>\r\n        </Sidebar>\r\n    );\r\n}\r\n\r\nexport default Archive;"
+        }
+    ]
+}
