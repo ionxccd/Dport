@@ -1,0 +1,86 @@
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(217, 88.2%, 90%);
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-header{
+  position: sticky;
+  top: 0 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#circle-icon{
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  color:"#1F2833";
+}
+
+.exp {
+   width:81px;
+   height:81px;
+   background-color:#2D4665;
+  color:#1F2833;
+   display:flex;
+   align-items:center;
+   justify-content:space-around;
+   padding:11px;
+   border-radius:51%;
+   box-sizing:border-box;
+}
+
+.tagcloud {
+    font-size: 20px;
+}
+
+.tagcloud--item {
+    color:#B4BFCD;
+    padding: 2px 4px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.tagcloud--item:hover {
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid #333;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    opacity: 1 !important;
+    z-index: 100 !important;
+}
