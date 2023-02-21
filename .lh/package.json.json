@@ -1,0 +1,22 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1676951844085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1676951931568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,36 +1,34 @@\n-{\n-  \"name\": \"dport\",\n-  \"private\": true,\n-  \"version\": \"0.0.0\",\n-  \"type\": \"module\",\n-  \"scripts\": {\n-    \"dev\": \"vite\",\n-    \"build\": \"vite build\",\n-    \"preview\": \"vite preview\",\n-    \"start\": \"react-scripts start\",\n-    \"eject\": \"react-scripts eject\"\n-  },\n-  \"dependencies\": {\n-    \"@fontsource/lato\": \"^4.5.10\",\n-    \"@fontsource/montserrat\": \"^4.5.14\",\n-    \"@frank-mayer/react-tag-cloud\": \"^1.1.1\",\n-    \"@supabase/supabase-js\": \"^2.8.0\",\n-    \"bootstrap\": \"^5.2.3\",\n-    \"parse\": \"^4.0.1\",\n-    \"react\": \"^18.2.0\",\n-    \"react-bootstrap\": \"^2.7.1\",\n-    \"react-bootstrap-icons\": \"^1.10.2\",\n-    \"react-dom\": \"^18.2.0\",\n-    \"react-icons\": \"^4.7.1\",\n-    \"react-router-dom\": \"^6.8.1\",\n-    \"react-scripts\": \"^5.0.1\",\n-    \"react-simple-tooltip\": \"^2.6.3\",\n-    \"react-tagcloud\": \"^2.3.1\"\n-  },\n-  \"devDependencies\": {\n-    \"@types/react\": \"^18.0.27\",\n-    \"@types/react-dom\": \"^18.0.10\",\n-    \"@vitejs/plugin-react\": \"^3.1.0\",\n-    \"vite\": \"^4.1.0\"\n-  }\n-}\n+{\r\n+  \"name\": \"dport\",\r\n+  \"private\": true,\r\n+  \"version\": \"0.0.0\",\r\n+  \"type\": \"module\",\r\n+  \"scripts\": {\r\n+    \"test\": \"react-scripts test\",\r\n+    \"build\": \"react-scripts build\",\r\n+    \"start\": \"react-scripts start\",\r\n+    \"eject\": \"react-scripts eject\"\r\n+  },\r\n+  \"dependencies\": {\r\n+    \"@fontsource/lato\": \"^4.5.10\",\r\n+    \"@fontsource/montserrat\": \"^4.5.14\",\r\n+    \"@frank-mayer/react-tag-cloud\": \"^1.1.1\",\r\n+    \"@supabase/supabase-js\": \"^2.8.0\",\r\n+    \"bootstrap\": \"^5.2.3\",\r\n+    \"parse\": \"^4.0.1\",\r\n+    \"react\": \"^18.2.0\",\r\n+    \"react-bootstrap\": \"^2.7.1\",\r\n+    \"react-bootstrap-icons\": \"^1.10.2\",\r\n+    \"react-dom\": \"^18.2.0\",\r\n+    \"react-icons\": \"^4.7.1\",\r\n+    \"react-router-dom\": \"^6.8.1\",\r\n+    \"react-scripts\": \"^5.0.1\",\r\n+ \"react-tagcloud\": \"^2.3.1\"\r\n+  },\r\n+  \"devDependencies\": {\r\n+    \"@types/react\": \"^18.0.27\",\r\n+    \"@types/react-dom\": \"^18.0.10\",\r\n+    \"@vitejs/plugin-react\": \"^3.1.0\",\r\n+    \"vite\": \"^4.1.0\"\r\n+  }\r\n+}\r\n"
+                }
+            ],
+            "date": 1676951844085,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"dport\",\n  \"private\": true,\n  \"version\": \"0.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\",\n    \"start\": \"react-scripts start\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"dependencies\": {\n    \"@fontsource/lato\": \"^4.5.10\",\n    \"@fontsource/montserrat\": \"^4.5.14\",\n    \"@frank-mayer/react-tag-cloud\": \"^1.1.1\",\n    \"@supabase/supabase-js\": \"^2.8.0\",\n    \"bootstrap\": \"^5.2.3\",\n    \"parse\": \"^4.0.1\",\n    \"react\": \"^18.2.0\",\n    \"react-bootstrap\": \"^2.7.1\",\n    \"react-bootstrap-icons\": \"^1.10.2\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-icons\": \"^4.7.1\",\n    \"react-router-dom\": \"^6.8.1\",\n    \"react-scripts\": \"^5.0.1\",\n    \"react-simple-tooltip\": \"^2.6.3\",\n    \"react-tagcloud\": \"^2.3.1\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.0.27\",\n    \"@types/react-dom\": \"^18.0.10\",\n    \"@vitejs/plugin-react\": \"^3.1.0\",\n    \"vite\": \"^4.1.0\"\n  }\n}\n"
+        }
+    ]
+}
