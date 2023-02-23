@@ -1,4 +1,5 @@
 {
+  "homepage":"https://ionxccd.github.io/Dport",
   "name": "dport",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "test": "react-scripts test",
     "build": "react-scripts build",
     "start": "react-scripts start",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@fontsource/lato": "^4.5.10",
