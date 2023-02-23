@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ionxccd.github.io/Dport",
+  "homepage": "https://ionxccd.github.io/Dport",
   "name": "dport",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "react-scripts build",
     "start": "react-scripts start",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fontsource/lato": "^4.5.10",
@@ -26,12 +26,24 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "^5.0.1",
- "react-tagcloud": "^2.3.1"
+    "react-tagcloud": "^2.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "vite": "^4.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
